@@ -1,0 +1,8 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+# Keep raw exports out of git by default; explicitly add safe source files.
+raw/
