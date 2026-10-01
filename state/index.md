@@ -4,3 +4,4 @@
 * [Current Priority Hierarchy](current-priorities.md) - Present priorities.
 * [Founder Mission Constraints](constraints.md) - Structural constraints.
 * [Founder Mission Open Loops](open-loops.md) - Unresolved strategic questions.
+* [Current Project Map](current-project-map.md) - Active versus exploratory/historical projects.

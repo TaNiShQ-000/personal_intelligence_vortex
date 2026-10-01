@@ -1,26 +1,27 @@
 ---
-type: Failure
-title: Content Consistency → Burnout Loop
-description: Repeated high-intensity content publishing created a risk of burnout and system redesign.
-tags: [experience, failure, content, burnout]
+type: Experience
+title: Content Production Burnout
+description: Learning from sustained personal-brand publishing.
+tags: [experience, content, burnout, learning]
 context_priority: P1
-evidence_level: demonstrated
+evidence_level: explicit
 temporal_status: historical
 status: stable
-confidence: 0.92
-generated: { by: openai/gpt-5.6-luna, at: 2026-10-01T17:30:00Z }
+confidence: 0.96
+generated: { by: openai, at: 2026-10-01 }
 sources:
   - id: conversation-context
     resource: /sources/conversation-context.md
 ---
+
 # Pattern
 
-**Commitment → intense publishing → sustained repetition → fatigue → reassessment → system redesign → recommitment.**
+The user previously posted content daily for extended periods and experienced burnout / considered quitting.
 
-# Lesson
+# Learning
 
-Consistency without leverage or sustainability can turn a distribution strategy into an energy drain.
+Consistency should be supported by systems and leverage rather than constant willpower.
 
 # Strategic implication
 
-Personal brand should ideally operate as a distribution asset supporting the main economic engine rather than becoming a second full-time job.
+When content supports business distribution, prioritize sustainable repurposing and leverage over raw posting volume.

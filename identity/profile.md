@@ -1,26 +1,32 @@
 ---
 type: Identity
-title: Vortex User Identity
-description: Core identity and persistent self-concept relevant to AI collaboration.
-tags: [identity, founder, builder, ai]
+title: Core Identity
+description: High-level identity and current self-concept.
+tags: [identity, founder, engineer, creator]
 context_priority: P0
-evidence_level: demonstrated
-temporal_status: current
-status: stable
-confidence: 0.96
-generated: { by: openai/gpt-5.6-luna, at: 2026-10-01T17:30:00Z }
+evidence_level: explicit
+temporal_status: changing
+status: active
+confidence: 0.98
+generated: { by: openai, at: 2026-10-01 }
 sources:
   - id: conversation-context
     resource: /sources/conversation-context.md
 ---
+
 # Core identity
 
-The user is a technically strong builder moving from an engineering-centered career toward independent ownership and entrepreneurship.
+- Preferred account name: vortex.
+- Historical personal context identifies the user as Tanishq Jaiswal.
+- Current phase: independent founder / builder after leaving conventional employment.
+- Technical identity: AI/software engineer and full-stack builder spanning application engineering, ML, LLM systems, agents, RAG, infrastructure, and deployment.
+- Creator identity: personal-brand builder focused on documenting the journey, building in public, and using content as distribution.
+- Founder identity: increasingly focused on owning a business/system rather than optimizing for a traditional employment path.
 
-A stable underlying identity across changing projects is: **builder/operator seeking autonomy, leverage, and ownership through AI/software systems.**
+## Stable underlying pattern
 
-The labels "AI engineer", "full-stack developer", "creator", "agent builder", and "founder" describe different phases or facets rather than the whole identity.
+The projects vary, but a recurring identity-level pattern is:
 
-## Stable thread
+**technical capability + information/data + automation/AI + distribution → owned leverage.**
 
-> Find leverage → understand the system → build the mechanism → own the asset → compound it through distribution.
+This appears more stable than any individual project.

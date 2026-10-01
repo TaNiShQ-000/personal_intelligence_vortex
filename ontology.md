@@ -47,3 +47,47 @@ These are producer-defined extensions on top of OKF's base fields:
 Create a new concept when the information is likely to be retrieved independently, has its own lifecycle, or participates in relationships with other concepts.
 
 Prefer links between concepts over repeating large blocks of the same information.
+
+
+## v0.1 expansion
+
+Additional concept types observed in the seed corpus:
+- `Timeline`
+- `Pattern`
+- `Contradiction`
+- `Experience`
+- `Content Strategy`
+- `Current State`
+
+These were added because they carry retrieval value that would be lost if flattened into ordinary facts.
+
+## Metadata contract
+
+Use when applicable:
+- `type`
+- `title`
+- `description`
+- `tags`
+- `context_priority`
+- `evidence_level`: explicit / demonstrated / inference / insufficient
+- `temporal_status`: current / stable / changing / temporary / historical / uncertain
+- `status`: active / draft / exploratory / deprecated / archived
+- `confidence`
+- `generated`
+- `sources`
+
+## Canonical-source rule
+
+Markdown concepts are authoritative. Any relational store, graph, vector index, or search index created later is derived and rebuildable.
+
+## Update rule
+
+Prefer updating canonical concepts over duplicating facts. Preserve historical state where useful.
+
+## Evidence rule
+
+LLM-generated text is not evidence. Material assertions must trace to user statements, demonstrated repeated behavior, or clearly labeled inference.
+
+## Privacy rule
+
+Only retain personal context that is relevant to the intended intelligence system. Do not infer sensitive attributes.

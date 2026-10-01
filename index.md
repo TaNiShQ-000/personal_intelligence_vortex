@@ -1,39 +1,38 @@
 ---
+type: Knowledge Bundle
+title: Vortex Personal Intelligence Corpus
+description: Human-readable, machine-readable personal intelligence corpus for Vortex.
 okf_version: "0.2"
+tags: [vortex, personal-intelligence, knowledge, context]
+status: active
 ---
+
 # Vortex Personal Intelligence Corpus
 
-This repository is the first local corpus representing the user's durable context for AI collaboration.
+This repository is the durable, human-readable source of truth for the Vortex Personal Intelligence Layer.
 
-It is intentionally **human-readable first** and **machine-queryable second**. The current ontology is provisional and should evolve from observed data rather than premature database design.
+## Start here
 
-## Core context
+- [Ontology](ontology.md) - Current working taxonomy and metadata contract.
+- [Current State](state/index.md) - What matters now.
+- [Identity](identity/index.md) - Who the user is and career/background.
+- [Goals](goals/index.md) - Current and long-term objectives.
+- [Decisions](decisions/index.md) - Decisions and reasoning.
+- [Capabilities](capabilities/index.md) - Technical and business capability.
+- [Projects](projects/index.md) - Active and historical project context.
+- [Preferences](preferences/index.md) - How the user prefers to work and communicate.
+- [Experiences](experiences/index.md) - Important historical experiences.
+- [Observations](observations/index.md) - Cross-conversation patterns and tensions.
+- [Content](content/index.md) - Personal-brand/distribution context.
+- [Sources](sources/index.md) - Provenance and source-scope descriptors.
+- [Prompts](prompts/context-anchor.md) - Instructions for agents consuming this corpus.
 
-* [Identity](identity/) - Core identity, background, and current professional self-concept.
-* [State](state/) - Current situation, priorities, constraints, and open loops.
-* [Goals](goals/) - North-star and strategic goals.
-* [Capabilities](capabilities/) - Demonstrated technical and business capabilities.
-* [Preferences](preferences/) - Stable communication, work, and decision preferences.
+## Current architecture hypothesis
 
-## Reasoning and history
+`raw sources → extraction → OKF corpus → derived indexes/graph/embeddings → context orchestrator → agent tools → LLM`
 
-* [Decisions](decisions/) - Important decisions and their rationale.
-* [Beliefs](beliefs/) - Explicit and inferred operating principles.
-* [Experiences](experiences/) - Career, projects, experiments, failures, and lessons.
-* [Observations](observations/) - Cross-conversation patterns, contradictions, and leverage.
+The corpus comes first. Derived infrastructure comes later.
 
-## Work and identity in motion
+## State rule
 
-* [Projects](projects/) - Active and historical projects.
-* [Content](content/) - Personal-brand and creator context.
-* [Relationships](relationships/) - Personal context that materially affects planning or priorities.
-
-## Provenance
-
-* [Sources](sources/) - Description of the source layers used to create this initial corpus.
-* [Ontology](ontology.md) - Provisional Vortex concept taxonomy and metadata extensions.
-* [Setup](SETUP.md) - Local Git setup and next ingestion steps.
-* [Agent Instructions](AGENTS.md) - How agents should read and update the corpus.
-* [Seed Corpus Prompt](prompts/seed-corpus-prompt.md) - Prompt for generating a first corpus from large source exports.
-* [Extraction Prompt](prompts/extraction-prompt.md) - Reusable prompt for incremental conversion of new source material into OKF concepts.
-* [Context Anchor](prompts/context-anchor.md) - Runtime instruction for agents consuming the corpus.
+Historical information is not current information. Decisions and current state should be updated explicitly rather than inferred from old project documents.

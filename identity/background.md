@@ -1,30 +1,34 @@
 ---
 type: Background
-title: Technical and Career Background
-description: Education and major career phases relevant to current founder fit.
-tags: [background, career, education]
+title: Education and Career Background
+description: Historical education and employment context available in the accumulated corpus.
+tags: [background, education, career]
 context_priority: P1
 evidence_level: explicit
-temporal_status: stable
+temporal_status: historical
 status: stable
-confidence: 0.98
-generated: { by: openai/gpt-5.6-luna, at: 2026-10-01T17:30:00Z }
+confidence: 0.97
+generated: { by: openai, at: 2026-10-01 }
 sources:
   - id: conversation-context
     resource: /sources/conversation-context.md
 ---
+
 # Education
 
-- B.Tech in Information Technology from Harcourt Butler Technical University (HBTU), Kanpur; graduation year 2024.
+- Harcourt Butler Technical University (HBTU), Kanpur.
+- B.Tech in Information Technology.
+- Graduation year: 2024.
+- Historical CGPA references: 7.8 and later 7.9. Treat exact value as requiring source verification if used externally.
 
-# Career progression
+# Career
 
-- Full-stack development experience including MERN and Next.js.
-- Developer internship experience at Innodatatics.
-- AI/ML work including computer vision and on-device deepfake detection.
-- Joined Samsung Research Institute Noida / Samsung in January 2025 in an AI/software engineering capacity.
-- Resigned in September 2026 to commit a finite founder window to building an independent income-producing business.
+- Civil Guruji — Full Stack Developer; MERN/Next.js work on a live CMS project.
+- Innodatatics — Developer Intern, Dec 2023–Feb 2024.
+- Samsung Research Institute Noida — recruitment/Letter of Intent stage before joining.
+- Samsung — AI/software engineering role beginning Jan 2025.
+- By September 2026, the user had resigned and moved into a founder-focused period.
 
-# Interpretation
+# Career trajectory
 
-The important career transition is from **capability accumulation** to **capability monetization and ownership**.
+Full-stack engineering → ML/AI → production AI/software → agentic/personal systems → creator/distribution → founder/business systems.

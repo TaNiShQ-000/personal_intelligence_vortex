@@ -43,3 +43,33 @@ git add .
 git commit -m "Initialize Vortex personal intelligence corpus"
 # then add your remote and push
 ```
+
+
+## Corpus status
+
+This is a dense seed corpus, not a final biography or immutable schema. It is intended to evolve through source ingestion and review.
+
+## Current coverage
+
+The seed corpus now covers:
+- identity and career
+- timeline
+- current founder state
+- goals and priorities
+- constraints and open loops
+- decision frameworks
+- technical capabilities
+- business capabilities
+- project history
+- content strategy
+- recurring patterns
+- contradictions
+- leverage
+- execution risks
+- historical experiences
+
+## Next ingestion path
+
+`raw source → extraction → candidate OKF changes → human review → commit → derived indexes later`
+
+Do not build the database first. Let corpus density determine what deserves specialized retrieval infrastructure.

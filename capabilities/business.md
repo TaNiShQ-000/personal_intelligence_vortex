@@ -1,29 +1,30 @@
 ---
 type: Capability
-title: Business and Product Capabilities
-description: Repeatedly demonstrated or actively developing business-side capabilities.
-tags: [business, product, distribution, strategy]
+title: Business and Commercial Capability
+description: Emerging business/system capabilities demonstrated through entrepreneurial exploration.
+tags: [capabilities, business, gtme, founder]
 context_priority: P1
 evidence_level: demonstrated
-temporal_status: stable
-status: stable
-confidence: 0.88
-generated: { by: openai/gpt-5.6-luna, at: 2026-10-01T17:30:00Z }
+temporal_status: changing
+status: active
+confidence: 0.86
+generated: { by: openai, at: 2026-10-01 }
 sources:
   - id: conversation-context
     resource: /sources/conversation-context.md
 ---
-# Demonstrated / emerging capabilities
 
-- Rapid technical prototyping.
-- Problem decomposition into workflows and systems.
-- AI-assisted automation design.
-- Opportunity discovery through search/data fragmentation.
-- Early GTM-system thinking.
-- Personal-brand strategy as potential distribution.
-- Service → software modeling.
-- Market/problem framing.
+# Demonstrated / developing capabilities
 
-# Development edge
+- Opportunity discovery through market/search-demand analysis.
+- Translating technical capabilities into workflow/business systems.
+- Thinking in service → software progression.
+- GTM engineering: AI + automation + data + software + revenue.
+- Personal-brand/content strategy.
+- Information aggregation and normalization.
+- Identifying fragmented workflows/data as potential wedges.
+- Thinking about measurable ROI rather than technology novelty.
 
-The major commercial capability still being built is repeatable customer acquisition and sales execution. The user has increasingly recognized that technical ability without distribution is insufficient.
+# Evidence limitation
+
+The corpus contains substantial strategic exploration but insufficient verified evidence to claim a scaled commercial sales track record. Treat commercial execution capability as developing rather than proven at scale.

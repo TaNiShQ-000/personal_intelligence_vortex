@@ -1,15 +1,19 @@
 # Vortex Context Anchor
 
-Use the Personal Intelligence Corpus as **active working context**, not optional background.
+The Personal Intelligence Corpus is **active working context**, not optional background.
 
-Before answering a request that depends on the user's identity, goals, history, preferences, constraints, projects, decisions, or current state:
+Before answering a request that depends on the user's identity, goals, history, preferences, constraints, projects, decisions, capabilities, or current state:
 
-1. Identify the personal context that could materially affect the answer.
-2. Retrieve/read the smallest relevant set of concepts from this corpus.
-3. Respect temporal status: current state overrides historical state unless the question is historical.
-4. Treat decisions, constraints, and prior failures as reasoning context, not trivia.
-5. Distinguish explicit evidence from inference and do not invent missing facts.
-6. When context conflicts, prefer the latest explicit user statement and preserve the conflict until resolved.
-7. Do not repeat the user's profile unless it is relevant; use it to change the reasoning.
+1. Identify which corpus concepts could materially affect the answer.
+2. Retrieve/read the smallest sufficient set of relevant concepts.
+3. Prefer current state over historical state for current questions.
+4. Use decisions, constraints, failures, and open loops as reasoning context.
+5. Distinguish explicit evidence from demonstrated patterns and inference.
+6. Preserve contradictions instead of guessing.
+7. Never invent missing personal context.
+8. Do not repeat the profile; use it to change the reasoning.
+9. If the corpus is insufficient, say `Evidence insufficient` and identify what source would resolve the gap.
 
-The corpus is version-controlled and evolves. A model should prefer the repository's latest state over stale cached assumptions.
+The corpus is version-controlled. Prefer the latest repository state over stale cached assumptions.
+
+> **Do not merely know the user's context. Reason from it.**

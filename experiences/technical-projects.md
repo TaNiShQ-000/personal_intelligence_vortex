@@ -1,23 +1,50 @@
 ---
 type: Experience
-title: Technical Project Pattern
-
-description: Recurring project pattern across AI, software, memory, data extraction, and knowledge systems.
-tags: [experience, engineering, projects]
+title: Technical Project History
+description: Major technical projects and research experiences.
+tags: [experience, engineering, ai, ml]
 context_priority: P1
-evidence_level: demonstrated
-temporal_status: stable
+evidence_level: explicit
+temporal_status: historical
 status: stable
-confidence: 0.9
-generated: { by: openai/gpt-5.6-luna, at: 2026-10-01T17:30:00Z }
+confidence: 0.95
+generated: { by: openai, at: 2026-10-01 }
 sources:
   - id: conversation-context
     resource: /sources/conversation-context.md
 ---
-# Recurring pattern
 
-The user frequently builds at the intersection of:
+# Research / academic
 
-**unstructured information → extraction → structured representation → retrieval → automation → user-facing intelligence**
+- “Advance Assessment Evaluation”, International Journal, Vol. 9, Issue 1, Jan 2024.
+- Final-year project: transfer learning using InceptionV3.
 
-Examples include personal memory systems, codebase knowledge graphs, content intelligence, recruitment systems, and hyperlocal aggregation.
+# Applied ML
+
+- On-device deepfake detection for mobile devices.
+- MobileNet, EfficientNet, TinyViT exploration/work.
+
+# Software / production
+
+- MERN + Next.js applications.
+- TurboRepo monorepo.
+- Prisma + PostgreSQL.
+- Expo applications with NativeWind/TypeScript.
+- AWS EC2.
+- Prometheus/Grafana/Loki observability.
+
+# Code intelligence
+
+- Python codebase parsing with Tree-sitter.
+- LSP/multilspy.
+- Extraction of classes, functions, imports, calls.
+- Intended RDFox knowledge-graph representation.
+
+# AI systems
+
+- yt-dlp + Whisper transcription.
+- ChromaDB retrieval.
+- OpenAI API.
+- LangMem.
+- FastAPI concepts.
+- Vertex AI / LangChain / LangGraph architecture.

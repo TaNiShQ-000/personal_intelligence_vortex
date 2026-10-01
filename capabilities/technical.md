@@ -1,75 +1,73 @@
 ---
 type: Capability
 title: Technical Capability Map
-description: Demonstrated technical capabilities and major areas of practical experience.
-tags: [skills, engineering, ai, infrastructure]
-context_priority: P1
+description: Technical skills with evidence-based maturity classification.
+tags: [capabilities, technical, ai, software]
+context_priority: P0
 evidence_level: demonstrated
 temporal_status: stable
-status: stable
-confidence: 0.95
-generated: { by: openai/gpt-5.6-luna, at: 2026-10-01T17:30:00Z }
+status: active
+confidence: 0.94
+generated: { by: openai, at: 2026-10-01 }
 sources:
   - id: conversation-context
     resource: /sources/conversation-context.md
 ---
-# Software engineering
 
-- Python
-- JavaScript / TypeScript
-- MERN
-- Next.js
-- React / Expo
-- TurboRepo
-- Prisma
-- PostgreSQL
-- API/backend development
-- Git/GitHub
+# Production / professional experience
 
-# Infrastructure
+- Full-stack development: MERN, Next.js, TypeScript.
+- Backend/API development.
+- PostgreSQL and Prisma.
+- Docker.
+- AWS EC2.
+- Git/GitHub.
+- Jira.
+- Grafana, Prometheus, Loki.
+- AI/ML engineering.
 
-- Docker
-- AWS EC2
-- Grafana
-- Prometheus
-- Loki
-- deployment and observability
+# ML / deep learning
 
-# ML / AI
-
-- TensorFlow / Keras
-- PyTorch
-- Scikit-learn
-- computer vision
-- transfer learning
-- on-device deepfake detection
-- MobileNet
-- EfficientNet
-- TinyViT
-- InceptionV3
-- NLP
+- TensorFlow / Keras.
+- PyTorch.
+- Scikit-learn.
+- NLTK.
+- Transfer learning.
+- InceptionV3.
+- MobileNet.
+- EfficientNet.
+- TinyViT.
+- Computer vision.
+- On-device deepfake detection.
+- Phishing / URL-tokenization work.
 
 # LLM / agent systems
 
-- OpenAI APIs
-- Vertex AI
-- LangChain
-- LangGraph
-- LangMem
-- RAG
-- embeddings
-- ChromaDB
-- FAISS
-- Weaviate
-- agent workflows
-- memory architectures
+- OpenAI APIs.
+- LangChain.
+- LangGraph.
+- LangMem.
+- RAG.
+- Embeddings.
+- ChromaDB.
+- FAISS.
+- Weaviate.
+- Vertex AI / google-cloud-aiplatform.
+- langchain-google-vertexai.
+- Agent workflows.
+- Memory architectures.
+- Conversation buffers.
+- Retrieval pipelines.
 
 # Advanced exploration
 
-- Tree-sitter
-- LSP / multilspy
-- codebase analysis
-- knowledge graph extraction
-- RDFox
+- Tree-sitter code parsing.
+- LSP / multilspy.
+- Codebase analysis.
+- RDFox knowledge graphs.
+- Structured knowledge extraction.
+- Agentic orchestration.
 
-These should not all be interpreted as equivalent production mastery; the corpus should preserve this distinction as more evidence is added.
+# Classification rule
+
+A technology mentioned in a question is not automatically expertise. Future updates must distinguish production experience, project experience, learning/in-progress, interest only, and historical/unused.

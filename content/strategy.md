@@ -1,30 +1,53 @@
 ---
 type: Content Strategy
 title: Personal Brand Strategy
-description: Personal brand is increasingly treated as distribution and credibility infrastructure rather than an isolated creator goal.
+description: Accumulated content and personal-brand positioning.
 tags: [content, personal-brand, distribution]
 context_priority: P1
 evidence_level: demonstrated
-temporal_status: current
-status: stable
+temporal_status: changing
+status: active
 confidence: 0.9
-generated: { by: openai/gpt-5.6-luna, at: 2026-10-01T17:30:00Z }
+generated: { by: openai, at: 2026-10-01 }
 sources:
   - id: conversation-context
     resource: /sources/conversation-context.md
 ---
-# Role of content
 
-- Distribution.
-- Credibility.
-- Documentation.
-- Identity reinforcement.
-- Potential customer acquisition.
+# Positioning
 
-# Preferred style
+The user has experimented with a personal brand centered on a relatable trailblazer/builder in AI, branding, life, and entrepreneurship, emphasizing doing and documenting.
 
-Direct, relatable, accountable, builder-oriented, story-led, hook-conscious, visually structured.
+# Themes
 
-# Strategic boundary
+- Building in public.
+- AI/software building.
+- Founder journey.
+- Discipline/accountability.
+- Personal transformation.
+- Systems and experimentation.
 
-Content should not consume the energy needed for the core business unless it is itself the business.
+# Formats
+
+- Instagram Reels.
+- Threads.
+- LinkedIn.
+- Short-form video.
+- Story-driven posts.
+
+# Style
+
+- Strong hooks.
+- Direct language.
+- Emojis where appropriate on Threads.
+- No unnecessary hashtags in Threads.
+- Brutal honesty/accountability.
+- Interest in SFX, motion graphics, editing, and storyboards.
+
+# Strategic role
+
+Personal brand is increasingly treated as distribution/credibility infrastructure.
+
+# Risk
+
+Daily content intensity can create burnout. Content should not become a second full-time job during the founder mission unless it directly supports the economic engine.

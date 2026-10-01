@@ -1,37 +1,45 @@
 ---
 type: Goal
 title: Four-Month Founder Mission
-description: Build an independently owned income engine during a concentrated founder window.
-tags: [goal, founder, independence]
+description: Current north-star operating commitment.
+tags: [goal, founder, revenue, independence]
 context_priority: P0
 evidence_level: explicit
 temporal_status: current
-status: stable
+status: active
 confidence: 0.99
-generated: { by: openai/gpt-5.6-luna, at: 2026-10-01T17:30:00Z }
+generated: { by: openai, at: 2026-10-01 }
 sources:
   - id: conversation-context
     resource: /sources/conversation-context.md
 ---
-# Mission
 
-Build a business/system that can realistically become the user's primary independent source of income.
+# Objective
 
-# Why it matters
+Use a finite approximately four-month founder window to build a business/system that can become a primary source of independent income and reduce the need to return to conventional employment.
 
-The user wants ownership and autonomy rather than relying indefinitely on traditional employment.
+# Optimization
 
-# Preferred path
+Prefer:
 
-1. Identify a painful problem.
-2. Validate demand.
-3. Sell an outcome.
-4. Deliver manually where useful.
-5. Observe the workflow.
-6. Automate repetitive components.
-7. Productize repeatable value.
-8. Build distribution and compounding assets.
+**probability of meaningful revenue × long-term upside × founder fit × compounding assets**
 
-# Success condition
+while minimizing:
 
-Meaningful evidence of customer willingness to pay plus a credible path toward repeatability and leverage.
+**time waste × capital required × luck dependency × premature complexity.**
+
+# Required characteristics
+
+- Real economic demand.
+- Fast learning and preferably early revenue evidence.
+- Low initial capital.
+- Strong founder fit.
+- Distribution path.
+- Automation/productization potential.
+- Meaningful long-term ownership.
+
+# Anti-goals
+
+- Technically impressive system without demand evidence.
+- Long unvalidated builds.
+- Treating every interesting technology as a business.

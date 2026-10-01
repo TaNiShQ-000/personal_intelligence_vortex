@@ -1,32 +1,27 @@
 ---
 type: Decision
-title: Commit Four Months to Founder Mission
-description: Decision to leave traditional employment and dedicate a finite window to building an independent business/system.
-tags: [decision, founder, career, autonomy]
+title: Four-Month Founder Commitment
+description: Decision to leave employment and concentrate a finite period on building an independent business/system.
+tags: [decision, founder, career, independence]
 context_priority: P0
 evidence_level: explicit
 temporal_status: current
-status: stable
+status: active
 confidence: 0.99
-generated: { by: openai/gpt-5.6-luna, at: 2026-10-01T17:30:00Z }
+generated: { by: openai, at: 2026-10-01 }
 sources:
   - id: conversation-context
     resource: /sources/conversation-context.md
 ---
+
 # Decision
 
-In September 2026, the user resigned from employment and committed the next approximately four months exclusively to building a business/system with the aim of creating independent income.
+The user resigned from conventional employment and committed approximately four months to building a business/system intended to become a primary independent income source.
 
-# Decision criteria
+# Why it matters
 
-- meaningful probability of revenue
-- long-term upside
-- founder fit
-- compounding assets
-- limited capital requirement
-- limited dependence on luck
-- minimal premature complexity
+This changes the opportunity-selection function: the founder window is finite capital and should not be consumed by open-ended experimentation.
 
-# Implication
+# Strategic consequence
 
-Future project decisions should be evaluated against this finite window rather than as open-ended hobby exploration.
+Business validation, revenue evidence, founder fit, distribution, and compounding assets become higher priority than pure technical exploration.

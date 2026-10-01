@@ -1,22 +1,25 @@
 ---
 type: Decision
-title: Service → Software as a Default Validation Path
-description: Prefer discovering and selling a workflow outcome before building a complete software product.
-tags: [decision, business-model, service, software]
+title: Service → Software Progression
+description: Preferred commercialization path when a workflow can first be solved manually.
+tags: [decision, service, software, validation]
 context_priority: P0
 evidence_level: demonstrated
 temporal_status: current
-status: stable
+status: active
 confidence: 0.93
-generated: { by: openai/gpt-5.6-luna, at: 2026-10-01T17:30:00Z }
+generated: { by: openai, at: 2026-10-01 }
 sources:
   - id: conversation-context
     resource: /sources/conversation-context.md
 ---
-# Direction
 
-When appropriate, start with a service or manually delivered workflow, learn the economics and process, then automate and productize the repeatable components.
+# Principle
 
-# Why
+**sell outcome → manually deliver → understand workflow → automate repeatable pieces → productize.**
 
-This reduces the risk of building technically impressive software before validating willingness to pay.
+# Purpose
+
+Reduce premature product development while producing evidence about customer pain, willingness to pay, workflow structure, and automation opportunities.
+
+This is preferred where structurally appropriate, not mandatory for every business.

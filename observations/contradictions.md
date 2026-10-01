@@ -1,35 +1,25 @@
 ---
 type: Contradiction
-title: Focus vs Opportunity Scanning
-
-description: The user's broad opportunity-scanning ability can conflict with the focus required by the founder window.
-tags: [contradiction, focus, founder]
-context_priority: P0
+title: Current Strategic Tensions
+description: Tensions to preserve rather than prematurely resolve.
+tags: [contradiction, strategy, founder]
+context_priority: P1
 evidence_level: demonstrated
 temporal_status: current
-status: stable
-confidence: 0.86
-generated: { by: openai/gpt-5.6-luna, at: 2026-10-01T17:30:00Z }
+status: active
+confidence: 0.9
+generated: { by: openai, at: 2026-10-01 }
 sources:
   - id: conversation-context
     resource: /sources/conversation-context.md
 ---
-# Statement A
 
-The user wants a highly focused four-month founder execution window.
+# Tensions
 
-# Statement B
+- **Focus vs opportunity scanning:** wants concentrated execution while naturally exploring many opportunities.
+- **Revenue urgency vs technical sophistication:** wants early commercial evidence while enjoying complex AI/system architecture.
+- **Simplicity vs architecture:** wants to avoid premature complexity while naturally designing sophisticated systems.
+- **Personal brand vs business execution:** content can create distribution but consume founder attention.
+- **Evidence vs technology intuition:** values evidence while being strongly attracted to emerging technology.
 
-The user naturally generates and investigates many plausible opportunity theses.
-
-# Evidence
-
-Repeated exploration of recruitment, GTM engineering, creator tools, search businesses, aggregation, media monetization, and AI infrastructure.
-
-# Possible explanation
-
-Opportunity discovery may be a genuine strength that becomes expensive when selection discipline fails.
-
-# Confidence
-
-Moderate to high. This should remain an observation rather than a diagnosis.
+These should inform planning without being treated as problems that must be eliminated.
